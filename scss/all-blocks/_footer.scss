@@ -2,10 +2,11 @@
     background: #2C343E;
     padding: 47px 0;
 
-    .container {
+    & .container {
         display: flex;
         align-items: center;
-        margin-left: 730px;
+        margin-left: 50px;
+        margin: 0 auto;
     }
 
     &__info {
@@ -22,7 +23,7 @@
         text-transform: uppercase;
 
 
-        & + & {
+        &+& {
             padding-left: 33px;
         }
 
@@ -38,11 +39,12 @@
         margin-left: 369px;
     }
 
-    &__item + &__item {
+    &__item+&__item {
         margin-left: 24px;
     }
 
 }
+
 path:hover {
     fill: darkcyan;
 }
